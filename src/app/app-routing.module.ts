@@ -5,8 +5,8 @@ import { BuscarComponent } from './paginas/buscar/buscar.component';
 import { DatallesComponent } from './paginas/datalles/datalles.component';
 
 const routes: Routes = [
-  {path:'',component:InicioComponent},
-  {path:'buscar/',component:BuscarComponent},
+  {path:'inicio',component:InicioComponent},
+  {path:'buscar',component:BuscarComponent},
   {path:'movie/:id',component:DatallesComponent}
 ];
 
