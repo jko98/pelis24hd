@@ -13,7 +13,7 @@ export class InicioComponent {
 
   }
    
-  banerResult:any=[];
+  banerResultado:any=[];
 
   ngOnInit(): void{
     this.banerdata();
@@ -24,7 +24,7 @@ export class InicioComponent {
   banerdata(){
     this.service.banerApiData().subscribe((result)=>{
      console.log(result, 'banerresult#');
-     this.banerResult = result.result;
+     this.banerResultado = result.result;
     });
   }
 
